@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-getting-started-from-zero-to-snowflake",
+  "path": "github/common_resources/sfguide-getting-started-from-zero-to-snowflake",
+  "url": "https://github.com/Snowflake-Labs/sfguide-getting-started-from-zero-to-snowflake",
+  "commit": "e12f556e2c23c155ddc6ac8a1be4953bb93332b0",
+  "archive_sha256": "15c69d58b53945b6fc4b827c4d7cfb4e59cda38eed1adaeba3d411d8a505e28e",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:29.101075+00:00",
+  "files": 12,
+  "bytes": 140933,
+  "excluded_paths": []
+}

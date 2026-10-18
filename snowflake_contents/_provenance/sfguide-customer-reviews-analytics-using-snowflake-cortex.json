@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-customer-reviews-analytics-using-snowflake-cortex",
+  "path": "github/cortex_ai_machine_learning/sfguide-customer-reviews-analytics-using-snowflake-cortex",
+  "url": "https://github.com/Snowflake-Labs/sfguide-customer-reviews-analytics-using-snowflake-cortex",
+  "commit": "661f0f868b8cec0789e6b01579f33fa4b484955e",
+  "archive_sha256": "e0761dc1220d556f35113212de294227e3f5f373672139e2d763a2b55ee453b1",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:42.637324+00:00",
+  "files": 4,
+  "bytes": 47584,
+  "excluded_paths": []
+}

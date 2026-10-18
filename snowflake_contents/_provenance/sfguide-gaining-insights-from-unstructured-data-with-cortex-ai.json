@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai",
+  "path": "github/cortex_ai_machine_learning/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai",
+  "url": "https://github.com/Snowflake-Labs/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai",
+  "commit": "f5ce635e7638198d72a3211518d8c03406bba670",
+  "archive_sha256": "a390bef68efbe2ec16549f870737d179012e25fcdc4526d59b33f92c415e5f98",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:48.328675+00:00",
+  "files": 9,
+  "bytes": 36409818,
+  "excluded_paths": []
+}

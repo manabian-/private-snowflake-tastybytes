@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-scai-e2e-ssis-migration",
+  "path": "github/data_engineering_dbt/sfguide-scai-e2e-ssis-migration",
+  "url": "https://github.com/Snowflake-Labs/sfguide-scai-e2e-ssis-migration",
+  "commit": "0016b567bf446369cb18ea45f4c8126e23810674",
+  "archive_sha256": "bbf2136ea4ab10bea26e1de54b111a84a6856344bd90860f599a5f7f751a27ca",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:35.816348+00:00",
+  "files": 41,
+  "bytes": 272467,
+  "excluded_paths": []
+}

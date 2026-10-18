@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/visual_analytics_powered_by_snowflake_and_tableau",
+  "path": "github/bi_applications_sharing/visual_analytics_powered_by_snowflake_and_tableau",
+  "url": "https://github.com/Snowflake-Labs/visual_analytics_powered_by_snowflake_and_tableau",
+  "commit": "8104683d3efd98c543da1db56898ab0a4756474f",
+  "archive_sha256": "764bb811655589275fd565e1cbbfb809a8dbdd1aa6261fc45b41ccaed2063469",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:58.949178+00:00",
+  "files": 14,
+  "bytes": 3212763,
+  "excluded_paths": []
+}

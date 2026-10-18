@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/snowflake-dcm-projects",
+  "path": "github/data_engineering_dbt/snowflake-dcm-projects",
+  "url": "https://github.com/Snowflake-Labs/snowflake-dcm-projects",
+  "commit": "92ca6a42b2aec4c7bc7405664b7a16ec349baab4",
+  "archive_sha256": "30067b4f023078f19ad005abb2d8e3b8d49c95472fa5a910c009f418e7c568af",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:41.416678+00:00",
+  "files": 152,
+  "bytes": 92660223,
+  "excluded_paths": []
+}

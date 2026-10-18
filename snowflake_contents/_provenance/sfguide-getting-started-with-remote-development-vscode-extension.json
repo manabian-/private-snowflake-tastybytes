@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-getting-started-with-remote-development-vscode-extension",
+  "path": "github/cortex_ai_machine_learning/sfguide-getting-started-with-remote-development-vscode-extension",
+  "url": "https://github.com/Snowflake-Labs/sfguide-getting-started-with-remote-development-vscode-extension",
+  "commit": "1f509be4b9387757776a629da32c2fd3bb49ed9e",
+  "archive_sha256": "63ea57aceb11b2c4894d33b876a85a9f7bd62aed0d407e81df780ddc9084fed9",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:57.066941+00:00",
+  "files": 6,
+  "bytes": 44939,
+  "excluded_paths": []
+}

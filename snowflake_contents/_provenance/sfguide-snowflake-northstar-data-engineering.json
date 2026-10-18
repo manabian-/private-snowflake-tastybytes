@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-snowflake-northstar-data-engineering",
+  "path": "github/data_engineering_dbt/sfguide-snowflake-northstar-data-engineering",
+  "url": "https://github.com/Snowflake-Labs/sfguide-snowflake-northstar-data-engineering",
+  "commit": "5787837593fbec13a37338981c70648d8b2d50d2",
+  "archive_sha256": "118be613bb841b3385ddc23dacdf5f3b96070aeee67d8f284236269753025cd8",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:32.042395+00:00",
+  "files": 10,
+  "bytes": 50891,
+  "excluded_paths": []
+}

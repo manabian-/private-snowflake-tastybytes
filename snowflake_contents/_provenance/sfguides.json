@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguides",
+  "path": "github/common_resources/sfguides",
+  "url": "https://github.com/Snowflake-Labs/sfguides",
+  "commit": "59beba6247ca2392002e13bfe92208ac34b13908",
+  "archive_sha256": "3092807e7553f5e4c153225c3d181807b07ccd89dc13578087d78f8a97dd500b",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:28.134273+00:00",
+  "files": 51,
+  "bytes": 539592,
+  "excluded_paths": []
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-tasty-bytes-zero-to-app",
+  "path": "github/bi_applications_sharing/sfguide-tasty-bytes-zero-to-app",
+  "url": "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-zero-to-app",
+  "commit": "c6fcd92204ad7c924d6a1a0f97d8b775dc0db0b5",
+  "archive_sha256": "edbdaa957026e7480117bbc46a527133ba481777078fa0730ea08f4ac7218614",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:21:00.097118+00:00",
+  "files": 53,
+  "bytes": 2800473,
+  "excluded_paths": []
+}

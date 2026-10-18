@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-end-to-end-analytics-with-snowflake-and-power-bi",
+  "path": "github/bi_applications_sharing/sfguide-end-to-end-analytics-with-snowflake-and-power-bi",
+  "url": "https://github.com/Snowflake-Labs/sfguide-end-to-end-analytics-with-snowflake-and-power-bi",
+  "commit": "31b03a95d77b90238aa6031e1be65f280b831064",
+  "archive_sha256": "91a5f06223a683c59ffb34b6dba340361d431da686b84fed14e2a209df532dc4",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:58.013417+00:00",
+  "files": 8,
+  "bytes": 500006,
+  "excluded_paths": []
+}

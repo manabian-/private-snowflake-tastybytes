@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-deploying-custom-models-snowflake-model-registry",
+  "path": "github/cortex_ai_machine_learning/sfguide-deploying-custom-models-snowflake-model-registry",
+  "url": "https://github.com/Snowflake-Labs/sfguide-deploying-custom-models-snowflake-model-registry",
+  "commit": "c7c0f6db828d46d06c06f4ebe9ada5dd0a2cc182",
+  "archive_sha256": "8ddac768159f21a0b34baa71d201ce6a5cec4343303c65a14360f6a5f8ba4e11",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:55.975520+00:00",
+  "files": 8,
+  "bytes": 31587,
+  "excluded_paths": []
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-intra-company-data-sharing-with-the-snowflake-internal-marketplace",
+  "path": "github/bi_applications_sharing/sfguide-intra-company-data-sharing-with-the-snowflake-internal-marketplace",
+  "url": "https://github.com/Snowflake-Labs/sfguide-intra-company-data-sharing-with-the-snowflake-internal-marketplace",
+  "commit": "668d3ef8eeb066ecae9251987200139f380203a0",
+  "archive_sha256": "ffb84cfe4e034b6aeb355189e6805c6d951e311c76dd4c68a1b23066e3ce9b27",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:21:03.183745+00:00",
+  "files": 10,
+  "bytes": 875371,
+  "excluded_paths": []
+}

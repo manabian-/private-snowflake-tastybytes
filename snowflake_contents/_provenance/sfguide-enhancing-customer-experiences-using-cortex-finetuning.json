@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-enhancing-customer-experiences-using-cortex-finetuning",
+  "path": "github/cortex_ai_machine_learning/sfguide-enhancing-customer-experiences-using-cortex-finetuning",
+  "url": "https://github.com/Snowflake-Labs/sfguide-enhancing-customer-experiences-using-cortex-finetuning",
+  "commit": "3b782b2b15883d2581eb554a4d9013e93592ba2d",
+  "archive_sha256": "8bfa21be4dcd5877926efb8738a224f20c8ef966d9a925ac3735366485d585b3",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:49.016441+00:00",
+  "files": 5,
+  "bytes": 40519,
+  "excluded_paths": []
+}

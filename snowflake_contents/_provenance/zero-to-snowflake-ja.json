@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/zero-to-snowflake-ja",
+  "path": "github/common_resources/zero-to-snowflake-ja",
+  "url": "https://github.com/Snowflake-Labs/zero-to-snowflake-ja",
+  "commit": "47239042d9d7bfb882f5aaab503fe98e2ac42657",
+  "archive_sha256": "445a3f2d8ff7b952b668897d8a0a0751cb52e964df1f9736fd31bfd9a9e364b0",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:30.060584+00:00",
+  "files": 14,
+  "bytes": 163437,
+  "excluded_paths": []
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/snowflake-demo-notebooks",
+  "path": "github/common_resources/snowflake-demo-notebooks",
+  "url": "https://github.com/Snowflake-Labs/snowflake-demo-notebooks",
+  "commit": "9e5a4331467c2e560ca461e092497e544e4fa303",
+  "archive_sha256": "8654aefcb604643bff932943881cee839f96907c82d21afe8b0245e2ac208e58",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:27.021915+00:00",
+  "files": 175,
+  "bytes": 30484347,
+  "excluded_paths": []
+}

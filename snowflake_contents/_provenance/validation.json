@@ -1,0 +1,16 @@
+{
+  "repositories": 29,
+  "retained_source_files": 15663,
+  "retained_source_bytes": 4806426872,
+  "contents": {
+    "source_markdown": 43,
+    "downloaded": 39,
+    "unavailable": 3
+  },
+  "internal_symlinks": 39,
+  "broken_source_symlinks": 0,
+  "index_links_checked": 179,
+  "files_at_least_100_MiB": [],
+  "lfs_pointers": [],
+  "submodule_definitions": []
+}

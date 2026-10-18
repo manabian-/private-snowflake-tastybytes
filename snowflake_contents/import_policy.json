@@ -1,0 +1,20 @@
+{
+  "excluded_hosts": ["coursera.org", "www.coursera.org"],
+  "excluded_directory_names": ["_archived"],
+  "excluded_catalog_urls": [
+    "https://www.snowflake.com/en/developers/guides/tasty-bytes-extracting-insights-with-docai/",
+    "https://github.com/Snowflake-Labs/sfquickstarts/blob/master/site/sfguides/src/_archived/tasty_bytes_native_app/tasty_bytes_native_app.md",
+    "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/sfguide-tasty-bytes-native-app"
+  ],
+  "excluded_repository_paths": {
+    "Snowflake-Labs/sfquickstarts": [
+      "site/sfguides/src/tasty-bytes-extracting-insights-with-docai",
+      "site/sfguides/src/automating-document-processing-workflows-with-document-ai",
+      "site/sfguides/src/doc-ai-pipeline-automation",
+      "site/sfguides/src/doc-ai-invoice-reconciliation"
+    ],
+    "Snowflake-Labs/sf-samples": [
+      "samples/sfguide-tasty-bytes-native-app"
+    ]
+  }
+}
