@@ -28,6 +28,12 @@ Snowflake の学習用サンプル「Tasty Bytes」について、[`snowflake_co
 | --- | --- |
 | [教材別データソース対応表](tutorials/data-sources-by-tutorial.md) | 教材ごとのデータベース・ソースデータ・データの形 |
 
+## ノートブック
+
+| ファイル | 内容 |
+| --- | --- |
+| [`tasty_bytes_load_all_tables.ipynb`](../notebooks/tasty_bytes_load_all_tables.ipynb) | 各教材が S3 から読み込む 31 テーブルを 1 つのデータベース `tasty_bytes_all` に作成・取り込みする Snowflake Notebook。同じテーブルに複数のソースがある場合は 1 つだけを採用 |
+
 ## 主な出典リポジトリ
 
 | リポジトリ | 主な内容 |
