@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(/snowflake_contents/**)",
+      "Edit(snowflake_contents/**)"
+    ],
+    "allow": [
+      "Bash(python3 tools/validate_wiki.py)",
+      "Bash(python3 tools/validate_wiki.py *)",
+      "Bash(python3 tools/source_link.py *)",
+      "Bash(python3 tools/wiki_sources.py *)",
+      "Bash(git status)",
+      "Bash(git status *)",
+      "Bash(git diff)",
+      "Bash(git diff *)",
+      "Bash(git log *)"
+    ]
+  }
+}
