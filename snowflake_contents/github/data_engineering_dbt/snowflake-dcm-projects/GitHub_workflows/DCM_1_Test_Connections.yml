@@ -1,0 +1,47 @@
+name: "DCM 1) Test Connections"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  DCM_PROJECT_PATH: sample-projects/dcm-full-demo-project/
+  SNOWFLAKE_USER: GITHUB_ACTIONS_SERVICE_USER
+
+jobs:
+  PARSE_MANIFEST:
+    runs-on: ubuntu-latest
+    outputs:
+      targets: ${{ steps.manifest.outputs.targets }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: true
+
+      - uses: snowflakedb/snowflake-actions/dcm/parse-manifest@v3
+        id: manifest
+        with:
+          project-path: ${{ env.DCM_PROJECT_PATH }}
+
+  CONNECTION_TEST:
+    needs: PARSE_MANIFEST
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        target: ${{ fromJson(needs.PARSE_MANIFEST.outputs.targets) }}
+      fail-fast: false
+    environment: ${{ matrix.target }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: true
+
+      - uses: snowflakedb/snowflake-actions/dcm/connection-test@v3
+        id: connect
+        with:
+          target: ${{ matrix.target }}
+          project-path: ${{ env.DCM_PROJECT_PATH }}
+          snowflake-user: ${{ env.SNOWFLAKE_USER }}
