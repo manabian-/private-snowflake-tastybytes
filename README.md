@@ -6,4 +6,6 @@ Snowflake のサンプルデータ・学習コンテンツ「Tasty Bytes」に�
 
 [Tasty Bytes ナレッジベース（wiki）](wiki/README.md)
 
+[全テーブルの作成・データ取り込みノートブック](notebooks/tasty_bytes_load_all_tables.ipynb)
+
 GitHub への保存時の除外事項は [PUSH_EXCLUSIONS.md](PUSH_EXCLUSIONS.md) を参照してください。
