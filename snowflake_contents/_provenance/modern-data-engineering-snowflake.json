@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/modern-data-engineering-snowflake",
+  "path": "github/data_engineering_dbt/modern-data-engineering-snowflake",
+  "url": "https://github.com/Snowflake-Labs/modern-data-engineering-snowflake",
+  "commit": "824bc65c1599508a19278ff618abac39e8faa464",
+  "archive_sha256": "6addb00386db6da6bce5299a96aeb44c4c20198f4ebe0830694c4683c22b179d",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:31.049457+00:00",
+  "files": 21,
+  "bytes": 1145659,
+  "excluded_paths": []
+}

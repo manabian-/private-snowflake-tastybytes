@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-declarative-pipelines-dynamic-tables",
+  "path": "github/data_engineering_dbt/sfguide-declarative-pipelines-dynamic-tables",
+  "url": "https://github.com/Snowflake-Labs/sfguide-declarative-pipelines-dynamic-tables",
+  "commit": "9937421fb54bae4a3e90ec46850e26fab862f5c0",
+  "archive_sha256": "0d4f12e29c1c47ca38b667627af89d90937470c51ee564fa67ad7a24f1b59c8f",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:34.300598+00:00",
+  "files": 10,
+  "bytes": 18067,
+  "excluded_paths": []
+}

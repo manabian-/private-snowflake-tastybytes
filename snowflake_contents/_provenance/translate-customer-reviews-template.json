@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/translate-customer-reviews-template",
+  "path": "github/cortex_ai_machine_learning/translate-customer-reviews-template",
+  "url": "https://github.com/Snowflake-Labs/translate-customer-reviews-template",
+  "commit": "27ed5cae9b746ef7c2df82e87f6c34454f97a53f",
+  "archive_sha256": "7aa0541e506c2a6e881a8974ae145dbda93f5abb6f07013491072470516bb7cb",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:49.917055+00:00",
+  "files": 4,
+  "bytes": 3169,
+  "excluded_paths": []
+}

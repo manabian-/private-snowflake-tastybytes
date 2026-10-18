@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/getting-started-with-dbt-on-snowflake",
+  "path": "github/data_engineering_dbt/getting-started-with-dbt-on-snowflake",
+  "url": "https://github.com/Snowflake-Labs/getting-started-with-dbt-on-snowflake",
+  "commit": "ce9dfd8fc6c9d0fb4c46d3df16503efe210ae249",
+  "archive_sha256": "74d5a3979c6b4264bc03a12422ffd54478f1507dc1112af47cfaaa9ac5573164",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:34.825794+00:00",
+  "files": 27,
+  "bytes": 54822,
+  "excluded_paths": []
+}

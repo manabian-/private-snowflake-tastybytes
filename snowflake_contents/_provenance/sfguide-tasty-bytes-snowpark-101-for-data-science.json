@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-tasty-bytes-snowpark-101-for-data-science",
+  "path": "github/cortex_ai_machine_learning/sfguide-tasty-bytes-snowpark-101-for-data-science",
+  "url": "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-snowpark-101-for-data-science",
+  "commit": "fd4ec2869b45f8285fac6b04cb9ea7427b48a575",
+  "archive_sha256": "74a3096516ce1963b1d26869eadd0fe8242494525f9436581108a63bd79395d1",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:51.216161+00:00",
+  "files": 16,
+  "bytes": 1660255,
+  "excluded_paths": []
+}

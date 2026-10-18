@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-horizon-intra-organization-sharing",
+  "path": "github/bi_applications_sharing/sfguide-horizon-intra-organization-sharing",
+  "url": "https://github.com/Snowflake-Labs/sfguide-horizon-intra-organization-sharing",
+  "commit": "0ba4522ade55766828420d069de1698860208ed4",
+  "archive_sha256": "e3970a2dff870467445e58fe41f7c958e28d9b540a173b26c61a67f736aef5c1",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:21:02.434044+00:00",
+  "files": 118,
+  "bytes": 744050,
+  "excluded_paths": []
+}

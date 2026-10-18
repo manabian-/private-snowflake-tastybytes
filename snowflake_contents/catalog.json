@@ -1,0 +1,597 @@
+[
+  {
+    "title": "Tasty Bytes の紹介・教材目次（日本語）",
+    "url": "https://www.snowflake.com/ja/developers/guides/tasty-bytes-introduction-ja/",
+    "category": "introduction",
+    "path": "introduction/tasty-bytes-introduction-ja",
+    "kind": "web"
+  },
+  {
+    "title": "Zero to Snowflake",
+    "url": "https://www.snowflake.com/en/developers/guides/zero-to-snowflake/",
+    "category": "introduction",
+    "path": "introduction/zero-to-snowflake",
+    "kind": "web"
+  },
+  {
+    "title": "Tasty Bytes 共通サンプルの README",
+    "url": "https://github.com/Snowflake-Labs/sf-samples/blob/main/samples/tasty_bytes/README.md",
+    "category": "introduction",
+    "path": "introduction/tasty_bytes_common_readme.md",
+    "kind": "github"
+  },
+  {
+    "title": "SQL によるサンプルデータのロード・クエリ",
+    "url": "https://docs.snowflake.com/ja/user-guide/tutorials/tasty-bytes-sql-load",
+    "category": "training/fundamentals",
+    "path": "training/fundamentals/tasty-bytes-sql-load",
+    "kind": "web"
+  },
+  {
+    "title": "Zero to Snowflake 日本語ハンズオン",
+    "url": "https://github.com/Snowflake-Labs/zero-to-snowflake-ja#readme",
+    "category": "training/fundamentals",
+    "path": "training/fundamentals/zero-to-snowflake-ja",
+    "kind": "github"
+  },
+  {
+    "title": "コスト管理",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-cost-management/",
+    "category": "training/fundamentals",
+    "path": "training/fundamentals/tasty-bytes-zero-to-snowflake-cost-management",
+    "kind": "web"
+  },
+  {
+    "title": "データ変換",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-transformation/",
+    "category": "training/fundamentals",
+    "path": "training/fundamentals/tasty-bytes-zero-to-snowflake-transformation",
+    "kind": "web"
+  },
+  {
+    "title": "データ変換（日本語）",
+    "url": "https://www.snowflake.com/ja/developers/guides/tasty-bytes-zero-to-snowflake-transformation-ja/",
+    "category": "training/fundamentals",
+    "path": "training/fundamentals/tasty-bytes-zero-to-snowflake-transformation-ja",
+    "kind": "web"
+  },
+  {
+    "title": "半構造化データ",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-semi-structured-data/",
+    "category": "training/fundamentals",
+    "path": "training/fundamentals/tasty-bytes-zero-to-snowflake-semi-structured-data",
+    "kind": "web"
+  },
+  {
+    "title": "半構造化データ（日本語）",
+    "url": "https://www.snowflake.com/ja/developers/guides/tasty-bytes-zero-to-snowflake-semi-structured-data-ja/",
+    "category": "training/fundamentals",
+    "path": "training/fundamentals/tasty-bytes-zero-to-snowflake-semi-structured-data-ja",
+    "kind": "web"
+  },
+  {
+    "title": "Marketplace・外部データ連携",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-collaboration/",
+    "category": "training/fundamentals",
+    "path": "training/fundamentals/tasty-bytes-zero-to-snowflake-collaboration",
+    "kind": "web"
+  },
+  {
+    "title": "Marketplace・外部データ連携（日本語）",
+    "url": "https://www.snowflake.com/ja/developers/guides/tasty-bytes-zero-to-snowflake-collaboration-ja/",
+    "category": "training/fundamentals",
+    "path": "training/fundamentals/tasty-bytes-zero-to-snowflake-collaboration-ja",
+    "kind": "web"
+  },
+  {
+    "title": "地理空間分析・H3",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-geospatial/",
+    "category": "training/fundamentals",
+    "path": "training/fundamentals/tasty-bytes-zero-to-snowflake-geospatial",
+    "kind": "web"
+  },
+  {
+    "title": "Data Engineering with Snowflake",
+    "url": "https://www.snowflake.com/en/developers/guides/snowflake-northstar-data-engineering/",
+    "category": "training/data_engineering",
+    "path": "training/data_engineering/snowflake-northstar-data-engineering",
+    "kind": "web"
+  },
+  {
+    "title": "Snowpark Python によるデータパイプライン",
+    "url": "https://www.snowflake.com/en/developers/guides/data-engineering-pipelines-with-snowpark-python/",
+    "category": "training/data_engineering",
+    "path": "training/data_engineering/data-engineering-pipelines-with-snowpark-python",
+    "kind": "web"
+  },
+  {
+    "title": "Dynamic Tables による SQL パイプライン・AI Agent",
+    "url": "https://www.snowflake.com/en/developers/guides/snowflake-dynamic-tables-data-pipeline/",
+    "category": "training/data_engineering",
+    "path": "training/data_engineering/snowflake-dynamic-tables-data-pipeline",
+    "kind": "web"
+  },
+  {
+    "title": "Dynamic Tables 総合ガイド",
+    "url": "https://www.snowflake.com/en/developers/guides/comprehensive-guide-to-dynamic-tables/",
+    "category": "training/data_engineering",
+    "path": "training/data_engineering/comprehensive-guide-to-dynamic-tables",
+    "kind": "web"
+  },
+  {
+    "title": "CoCo による取り込み・変換・配信",
+    "url": "https://www.snowflake.com/en/developers/guides/data-ingestion-transformation-delivery-coco/",
+    "category": "training/data_engineering",
+    "path": "training/data_engineering/data-ingestion-transformation-delivery-coco",
+    "kind": "web"
+  },
+  {
+    "title": "Iceberg Tables",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-working-with-iceberg-tables/",
+    "category": "training/data_engineering",
+    "path": "training/data_engineering/tasty-bytes-working-with-iceberg-tables",
+    "kind": "web"
+  },
+  {
+    "title": "Snowpark Connect for Apache Spark",
+    "url": "https://www.snowflake.com/en/developers/guides/intro-to-snowpark-connect-for-apache-spark/",
+    "category": "training/data_engineering",
+    "path": "training/data_engineering/intro-to-snowpark-connect-for-apache-spark",
+    "kind": "web"
+  },
+  {
+    "title": "dbt Projects on Snowflake ハンズオン",
+    "url": "https://www.snowflake.com/en/developers/guides/dbt-projects-on-snowflake/",
+    "category": "training/dbt",
+    "path": "training/dbt/dbt-projects-on-snowflake",
+    "kind": "web"
+  },
+  {
+    "title": "dbt Projects 入門チュートリアル",
+    "url": "https://docs.snowflake.com/en/user-guide/tutorials/dbt-projects-on-snowflake-getting-started-tutorial",
+    "category": "training/dbt",
+    "path": "training/dbt/dbt-projects-on-snowflake-getting-started-tutorial",
+    "kind": "web"
+  },
+  {
+    "title": "dbt Projects の CI/CD",
+    "url": "https://docs.snowflake.com/en/user-guide/tutorials/dbt-projects-on-snowflake-ci-cd-tutorial",
+    "category": "training/dbt",
+    "path": "training/dbt/dbt-projects-on-snowflake-ci-cd-tutorial",
+    "kind": "web"
+  },
+  {
+    "title": "Cortex Analyst：Tasty Bytes デモ",
+    "url": "https://github.com/Snowflake-Labs/sf-samples/blob/main/samples/cortex-analyst/Cortex%20Analyst%20Tasty%20Bytes/README.md",
+    "category": "training/cortex_generative_ai",
+    "path": "training/cortex_generative_ai/cortex_analyst_tasty_bytes_readme.md",
+    "kind": "github"
+  },
+  {
+    "title": "Cortex による顧客レビュー分析",
+    "url": "https://www.snowflake.com/en/developers/guides/customer-reviews-analytics-using-snowflake-cortex/",
+    "category": "training/cortex_generative_ai",
+    "path": "training/cortex_generative_ai/customer-reviews-analytics-using-snowflake-cortex",
+    "kind": "web"
+  },
+  {
+    "title": "Cortex による顧客レビューの理解",
+    "url": "https://www.snowflake.com/en/developers/guides/understanding-customer-reviews-using-snowflake-cortex/",
+    "category": "training/cortex_generative_ai",
+    "path": "training/cortex_generative_ai/understanding-customer-reviews-using-snowflake-cortex",
+    "kind": "web"
+  },
+  {
+    "title": "Cortex・Streamlit による RAG チャットボット",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-rag-chatbot-using-cortex-and-streamlit/",
+    "category": "training/cortex_generative_ai",
+    "path": "training/cortex_generative_ai/tasty-bytes-rag-chatbot-using-cortex-and-streamlit",
+    "kind": "web"
+  },
+  {
+    "title": "カスタマーサポートメールアプリ",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-customer-support-email-app/",
+    "category": "training/cortex_generative_ai",
+    "path": "training/cortex_generative_ai/tasty-bytes-customer-support-email-app",
+    "kind": "web"
+  },
+  {
+    "title": "非構造化データを使った顧客体験改善アプリ",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-customer-experience-app/",
+    "category": "training/cortex_generative_ai",
+    "path": "training/cortex_generative_ai/tasty-bytes-customer-experience-app",
+    "kind": "web"
+  },
+  {
+    "title": "Cortex Fine-Tuning による顧客体験改善",
+    "url": "https://www.snowflake.com/en/developers/guides/enhancing-customer-experiences-using-cortex-finetuning/",
+    "category": "training/cortex_generative_ai",
+    "path": "training/cortex_generative_ai/enhancing-customer-experiences-using-cortex-finetuning",
+    "kind": "web"
+  },
+  {
+    "title": "Cortex AI による一括データ抽出",
+    "url": "https://www.snowflake.com/en/developers/guides/gain-insights-from-unstructured-data/",
+    "category": "training/cortex_generative_ai",
+    "path": "training/cortex_generative_ai/gain-insights-from-unstructured-data",
+    "kind": "web"
+  },
+  {
+    "title": "音声注文処理・Cortex AI",
+    "url": "https://www.snowflake.com/en/developers/guides/build-voice-ai-analytics-pipeline-snowflake-cortex/",
+    "category": "training/cortex_generative_ai",
+    "path": "training/cortex_generative_ai/build-voice-ai-analytics-pipeline-snowflake-cortex",
+    "kind": "web"
+  },
+  {
+    "title": "Snowpark 101 for Data Science",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-snowpark-101-for-data-science/",
+    "category": "training/data_science_machine_learning",
+    "path": "training/data_science_machine_learning/tasty-bytes-snowpark-101-for-data-science",
+    "kind": "web"
+  },
+  {
+    "title": "価格最適化・Notebooks・Streamlit",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-price-optimization-using-snowflake-notebooks-and-streamlit/",
+    "category": "training/data_science_machine_learning",
+    "path": "training/data_science_machine_learning/tasty-bytes-price-optimization-using-snowflake-notebooks-and-streamlit",
+    "kind": "web"
+  },
+  {
+    "title": "ML Functions：異常検知・予測",
+    "url": "https://www.snowflake.com/en/developers/guides/ml-forecasting-ad/",
+    "category": "training/data_science_machine_learning",
+    "path": "training/data_science_machine_learning/ml-forecasting-ad",
+    "kind": "web"
+  },
+  {
+    "title": "分散 PyTorch によるレコメンデーション",
+    "url": "https://www.snowflake.com/en/developers/guides/getting-started-with-running-distributed-pytorch-models-on-snowflake/",
+    "category": "training/data_science_machine_learning",
+    "path": "training/data_science_machine_learning/getting-started-with-running-distributed-pytorch-models-on-snowflake",
+    "kind": "web"
+  },
+  {
+    "title": "カスタムモデルの Model Registry 配備",
+    "url": "https://www.snowflake.com/en/developers/guides/deploying-custom-models-to-snowflake-model-registry/",
+    "category": "training/data_science_machine_learning",
+    "path": "training/data_science_machine_learning/deploying-custom-models-to-snowflake-model-registry",
+    "kind": "web"
+  },
+  {
+    "title": "VS Code 拡張によるリモート開発・ML",
+    "url": "https://www.snowflake.com/en/developers/guides/get-started-with-remote-development-snowflake-vscode-extension/",
+    "category": "training/data_science_machine_learning",
+    "path": "training/data_science_machine_learning/get-started-with-remote-development-snowflake-vscode-extension",
+    "kind": "web"
+  },
+  {
+    "title": "Power BI：データモデル構築・分析",
+    "url": "https://www.snowflake.com/en/developers/guides/end-to-end-analytics-with-snowflake-and-power-bi/",
+    "category": "training/bi_analytics",
+    "path": "training/bi_analytics/end-to-end-analytics-with-snowflake-and-power-bi",
+    "kind": "web"
+  },
+  {
+    "title": "Tableau：ビジュアル分析",
+    "url": "https://www.snowflake.com/en/developers/guides/visual-analytics-powered-by-snowflake-and-tableau/",
+    "category": "training/bi_analytics",
+    "path": "training/bi_analytics/visual-analytics-powered-by-snowflake-and-tableau",
+    "kind": "web"
+  },
+  {
+    "title": "Hex・Cortex による顧客レビュー分析",
+    "url": "https://www.snowflake.com/en/developers/guides/analyzing-customer-reviews-using-hex-and-snowflake-cortex/",
+    "category": "training/bi_analytics",
+    "path": "training/bi_analytics/analyzing-customer-reviews-using-hex-and-snowflake-cortex",
+    "kind": "web"
+  },
+  {
+    "title": "Sigma による予測モデル",
+    "url": "https://www.snowflake.com/en/developers/guides/partner-snowflake-predictive-model-using-sigma/",
+    "category": "training/bi_analytics",
+    "path": "training/bi_analytics/partner-snowflake-predictive-model-using-sigma",
+    "kind": "web"
+  },
+  {
+    "title": "Node.js・React によるデータアプリ",
+    "url": "https://www.snowflake.com/en/developers/guides/build-a-data-app-with-snowflake/",
+    "category": "training/application_development",
+    "path": "training/application_development/build-a-data-app-with-snowflake",
+    "kind": "web"
+  },
+  {
+    "title": "Snowpark Container Services へのアプリ配備",
+    "url": "https://www.snowflake.com/en/developers/guides/build-a-data-app-and-run-it-on-snowpark-container-services/",
+    "category": "training/application_development",
+    "path": "training/application_development/build-a-data-app-and-run-it-on-snowpark-container-services",
+    "kind": "web"
+  },
+  {
+    "title": "React Native・SQL API",
+    "url": "https://www.snowflake.com/en/developers/guides/developing-tasty-bytes-react-native-application-with-snowflake-sql-api/",
+    "category": "training/application_development",
+    "path": "training/application_development/developing-tasty-bytes-react-native-application-with-snowflake-sql-api",
+    "kind": "web"
+  },
+  {
+    "title": "Horizon によるガバナンス",
+    "url": "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-governance-with-horizon/",
+    "category": "training/governance_sharing",
+    "path": "training/governance_sharing/tasty-bytes-zero-to-snowflake-governance-with-horizon",
+    "kind": "web"
+  },
+  {
+    "title": "Private Listings によるクロスクラウド共有",
+    "url": "https://www.snowflake.com/en/developers/guides/horizon-intra-org-sharing/",
+    "category": "training/governance_sharing",
+    "path": "training/governance_sharing/horizon-intra-org-sharing",
+    "kind": "web"
+  },
+  {
+    "title": "Internal Marketplace による社内共有",
+    "url": "https://www.snowflake.com/en/developers/guides/internal-marketplace-intra-org-sharing/",
+    "category": "training/governance_sharing",
+    "path": "training/governance_sharing/internal-marketplace-intra-org-sharing",
+    "kind": "web"
+  },
+  {
+    "title": "Microsoft Purview 連携",
+    "url": "https://www.snowflake.com/en/developers/guides/getting-started-with-microsoft-purview-and-snowflake/",
+    "category": "training/governance_sharing",
+    "path": "training/governance_sharing/getting-started-with-microsoft-purview-and-snowflake",
+    "kind": "web"
+  },
+  {
+    "title": "Snowflake-Labs/sfquickstarts",
+    "url": "https://github.com/Snowflake-Labs/sfquickstarts",
+    "category": "github/common_resources",
+    "path": "github/common_resources/sfquickstarts",
+    "kind": "github"
+  },
+  {
+    "title": "Snowflake-Labs/sf-samples",
+    "url": "https://github.com/Snowflake-Labs/sf-samples",
+    "category": "github/common_resources",
+    "path": "github/common_resources/sf-samples",
+    "kind": "github"
+  },
+  {
+    "title": "Snowflake-Labs/snowflake-demo-notebooks",
+    "url": "https://github.com/Snowflake-Labs/snowflake-demo-notebooks",
+    "category": "github/common_resources",
+    "path": "github/common_resources/snowflake-demo-notebooks",
+    "kind": "github"
+  },
+  {
+    "title": "Snowflake-Labs/sfguides",
+    "url": "https://github.com/Snowflake-Labs/sfguides",
+    "category": "github/common_resources",
+    "path": "github/common_resources/sfguides",
+    "kind": "github"
+  },
+  {
+    "title": "Snowflake-Labs/sfguide-getting-started-from-zero-to-snowflake",
+    "url": "https://github.com/Snowflake-Labs/sfguide-getting-started-from-zero-to-snowflake",
+    "category": "github/common_resources",
+    "path": "github/common_resources/sfguide-getting-started-from-zero-to-snowflake",
+    "kind": "github"
+  },
+  {
+    "title": "Snowflake-Labs/zero-to-snowflake-ja",
+    "url": "https://github.com/Snowflake-Labs/zero-to-snowflake-ja",
+    "category": "github/common_resources",
+    "path": "github/common_resources/zero-to-snowflake-ja",
+    "kind": "github"
+  },
+  {
+    "title": "modern-data-engineering-snowflake",
+    "url": "https://github.com/Snowflake-Labs/modern-data-engineering-snowflake",
+    "category": "github/data_engineering_dbt",
+    "path": "github/data_engineering_dbt/modern-data-engineering-snowflake",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-snowflake-northstar-data-engineering",
+    "url": "https://github.com/Snowflake-Labs/sfguide-snowflake-northstar-data-engineering",
+    "category": "github/data_engineering_dbt",
+    "path": "github/data_engineering_dbt/sfguide-snowflake-northstar-data-engineering",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-data-engineering-with-snowpark-python",
+    "url": "https://github.com/Snowflake-Labs/sfguide-data-engineering-with-snowpark-python",
+    "category": "github/data_engineering_dbt",
+    "path": "github/data_engineering_dbt/sfguide-data-engineering-with-snowpark-python",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-declarative-pipelines-dynamic-tables",
+    "url": "https://github.com/Snowflake-Labs/sfguide-declarative-pipelines-dynamic-tables",
+    "category": "github/data_engineering_dbt",
+    "path": "github/data_engineering_dbt/sfguide-declarative-pipelines-dynamic-tables",
+    "kind": "github"
+  },
+  {
+    "title": "getting-started-with-dbt-on-snowflake",
+    "url": "https://github.com/Snowflake-Labs/getting-started-with-dbt-on-snowflake",
+    "category": "github/data_engineering_dbt",
+    "path": "github/data_engineering_dbt/getting-started-with-dbt-on-snowflake",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-scai-e2e-ssis-migration",
+    "url": "https://github.com/Snowflake-Labs/sfguide-scai-e2e-ssis-migration",
+    "category": "github/data_engineering_dbt",
+    "path": "github/data_engineering_dbt/sfguide-scai-e2e-ssis-migration",
+    "kind": "github"
+  },
+  {
+    "title": "snowflake-dcm-projects",
+    "url": "https://github.com/Snowflake-Labs/snowflake-dcm-projects",
+    "category": "github/data_engineering_dbt",
+    "path": "github/data_engineering_dbt/snowflake-dcm-projects",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-tasty-bytes-enhancing-customer-experience",
+    "url": "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-enhancing-customer-experience",
+    "category": "github/cortex_ai_machine_learning",
+    "path": "github/cortex_ai_machine_learning/sfguide-tasty-bytes-enhancing-customer-experience",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-customer-reviews-analytics-using-snowflake-cortex",
+    "url": "https://github.com/Snowflake-Labs/sfguide-customer-reviews-analytics-using-snowflake-cortex",
+    "category": "github/cortex_ai_machine_learning",
+    "path": "github/cortex_ai_machine_learning/sfguide-customer-reviews-analytics-using-snowflake-cortex",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-gaining-insights-from-unstructured-data-with-cortex-ai",
+    "url": "https://github.com/Snowflake-Labs/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai",
+    "category": "github/cortex_ai_machine_learning",
+    "path": "github/cortex_ai_machine_learning/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-enhancing-customer-experiences-using-cortex-finetuning",
+    "url": "https://github.com/Snowflake-Labs/sfguide-enhancing-customer-experiences-using-cortex-finetuning",
+    "category": "github/cortex_ai_machine_learning",
+    "path": "github/cortex_ai_machine_learning/sfguide-enhancing-customer-experiences-using-cortex-finetuning",
+    "kind": "github"
+  },
+  {
+    "title": "translate-customer-reviews-template",
+    "url": "https://github.com/Snowflake-Labs/translate-customer-reviews-template",
+    "category": "github/cortex_ai_machine_learning",
+    "path": "github/cortex_ai_machine_learning/translate-customer-reviews-template",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-tasty-bytes-snowpark-101-for-data-science",
+    "url": "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-snowpark-101-for-data-science",
+    "category": "github/cortex_ai_machine_learning",
+    "path": "github/cortex_ai_machine_learning/sfguide-tasty-bytes-snowpark-101-for-data-science",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-price-optimization-using-snowflake-notebooks-and-streamlit",
+    "url": "https://github.com/Snowflake-Labs/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit",
+    "category": "github/cortex_ai_machine_learning",
+    "path": "github/cortex_ai_machine_learning/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-getting-started-with-running-distributed-pytorch-models-on-snowflake",
+    "url": "https://github.com/Snowflake-Labs/sfguide-getting-started-with-running-distributed-pytorch-models-on-snowflake",
+    "category": "github/cortex_ai_machine_learning",
+    "path": "github/cortex_ai_machine_learning/sfguide-getting-started-with-running-distributed-pytorch-models-on-snowflake",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-deploying-custom-models-snowflake-model-registry",
+    "url": "https://github.com/Snowflake-Labs/sfguide-deploying-custom-models-snowflake-model-registry",
+    "category": "github/cortex_ai_machine_learning",
+    "path": "github/cortex_ai_machine_learning/sfguide-deploying-custom-models-snowflake-model-registry",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-getting-started-with-remote-development-vscode-extension",
+    "url": "https://github.com/Snowflake-Labs/sfguide-getting-started-with-remote-development-vscode-extension",
+    "category": "github/cortex_ai_machine_learning",
+    "path": "github/cortex_ai_machine_learning/sfguide-getting-started-with-remote-development-vscode-extension",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-end-to-end-analytics-with-snowflake-and-power-bi",
+    "url": "https://github.com/Snowflake-Labs/sfguide-end-to-end-analytics-with-snowflake-and-power-bi",
+    "category": "github/bi_applications_sharing",
+    "path": "github/bi_applications_sharing/sfguide-end-to-end-analytics-with-snowflake-and-power-bi",
+    "kind": "github"
+  },
+  {
+    "title": "visual_analytics_powered_by_snowflake_and_tableau",
+    "url": "https://github.com/Snowflake-Labs/visual_analytics_powered_by_snowflake_and_tableau",
+    "category": "github/bi_applications_sharing",
+    "path": "github/bi_applications_sharing/visual_analytics_powered_by_snowflake_and_tableau",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-tasty-bytes-zero-to-app",
+    "url": "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-zero-to-app",
+    "category": "github/bi_applications_sharing",
+    "path": "github/bi_applications_sharing/sfguide-tasty-bytes-zero-to-app",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-tasty-bytes-zero-to-app-with-spcs",
+    "url": "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-zero-to-app-with-spcs",
+    "category": "github/bi_applications_sharing",
+    "path": "github/bi_applications_sharing/sfguide-tasty-bytes-zero-to-app-with-spcs",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-horizon-intra-organization-sharing",
+    "url": "https://github.com/Snowflake-Labs/sfguide-horizon-intra-organization-sharing",
+    "category": "github/bi_applications_sharing",
+    "path": "github/bi_applications_sharing/sfguide-horizon-intra-organization-sharing",
+    "kind": "github"
+  },
+  {
+    "title": "sfguide-intra-company-data-sharing-with-the-snowflake-internal-marketplace",
+    "url": "https://github.com/Snowflake-Labs/sfguide-intra-company-data-sharing-with-the-snowflake-internal-marketplace",
+    "category": "github/bi_applications_sharing",
+    "path": "github/bi_applications_sharing/sfguide-intra-company-data-sharing-with-the-snowflake-internal-marketplace",
+    "kind": "github"
+  },
+  {
+    "title": "Tasty Bytes 共通 SQL",
+    "url": "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/tasty_bytes",
+    "category": "github/tasty_bytes_samples",
+    "path": "github/tasty_bytes_samples/tasty_bytes",
+    "kind": "github"
+  },
+  {
+    "title": "FY25 Zero to Snowflake",
+    "url": "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/tasty_bytes/FY25_Zero_To_Snowflake",
+    "category": "github/tasty_bytes_samples",
+    "path": "github/tasty_bytes_samples/FY25_Zero_To_Snowflake",
+    "kind": "github"
+  },
+  {
+    "title": "Cortex Analyst：Notebook・Streamlit・セマンティックモデル",
+    "url": "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/cortex-analyst/Cortex%20Analyst%20Tasty%20Bytes",
+    "category": "github/tasty_bytes_samples",
+    "path": "github/tasty_bytes_samples/Cortex Analyst Tasty Bytes",
+    "kind": "github"
+  },
+  {
+    "title": "開発者・データサイエンティスト・データエンジニア向け入門",
+    "url": "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/intro-to-snowflake-for-devs-data-scientists-data-engineers",
+    "category": "github/tasty_bytes_samples",
+    "path": "github/tasty_bytes_samples/intro-to-snowflake-for-devs-data-scientists-data-engineers",
+    "kind": "github"
+  },
+  {
+    "title": "AISQL による顧客レビュー分析",
+    "url": "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/aisql/ecommerce_customer_review",
+    "category": "github/tasty_bytes_samples",
+    "path": "github/tasty_bytes_samples/ecommerce_customer_review",
+    "kind": "github"
+  },
+  {
+    "title": "Snowpark Connect",
+    "url": "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/snowpark_connect",
+    "category": "github/tasty_bytes_samples",
+    "path": "github/tasty_bytes_samples/snowpark_connect",
+    "kind": "github"
+  },
+  {
+    "title": "DCM：Tasty Bytes サンプル",
+    "url": "https://github.com/Snowflake-Labs/snowflake-dcm-projects/tree/main/sample-projects/dcm-full-demo-project",
+    "category": "github/tasty_bytes_samples",
+    "path": "github/tasty_bytes_samples/dcm-full-demo-project",
+    "kind": "github"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit",
+  "path": "github/cortex_ai_machine_learning/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit",
+  "url": "https://github.com/Snowflake-Labs/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit",
+  "commit": "ea6f0cf42587e4b238f24a6514f8e2c1a1b89f08",
+  "archive_sha256": "3cde0339f7f54d3a9588e0eea7cc287ab9b7365fb0e10efe96db4fa42d70f80a",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:53.890453+00:00",
+  "files": 20,
+  "bytes": 67239974,
+  "excluded_paths": []
+}

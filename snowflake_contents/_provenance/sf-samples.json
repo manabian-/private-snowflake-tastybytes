@@ -1,0 +1,16 @@
+{
+  "repository": "Snowflake-Labs/sf-samples",
+  "path": "github/common_resources/sf-samples",
+  "url": "https://github.com/Snowflake-Labs/sf-samples",
+  "commit": "a291149cf20f8b52fc2cd31f92b09671c415bee2",
+  "archive_sha256": "29d5e1c29f2636f1d6a169eb7edd1a9aec091bfeaadfbbf87cc918fb343709c8",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:21:14.689928+00:00",
+  "files": 1699,
+  "bytes": 547414348,
+  "excluded_paths": [
+    "samples/sfguide-tasty-bytes-native-app"
+  ],
+  "original_files": 1707,
+  "original_bytes": 547425742
+}

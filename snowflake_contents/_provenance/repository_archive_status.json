@@ -1,0 +1,147 @@
+[
+  {
+    "repository": "Snowflake-Labs/sfquickstarts",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sf-samples",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/snowflake-demo-notebooks",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguides",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-getting-started-from-zero-to-snowflake",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/zero-to-snowflake-ja",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/modern-data-engineering-snowflake",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-snowflake-northstar-data-engineering",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-data-engineering-with-snowpark-python",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-declarative-pipelines-dynamic-tables",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/getting-started-with-dbt-on-snowflake",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-scai-e2e-ssis-migration",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/snowflake-dcm-projects",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-tasty-bytes-enhancing-customer-experience",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-customer-reviews-analytics-using-snowflake-cortex",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-enhancing-customer-experiences-using-cortex-finetuning",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/translate-customer-reviews-template",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-tasty-bytes-snowpark-101-for-data-science",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-getting-started-with-running-distributed-pytorch-models-on-snowflake",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-deploying-custom-models-snowflake-model-registry",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-getting-started-with-remote-development-vscode-extension",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-end-to-end-analytics-with-snowflake-and-power-bi",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/visual_analytics_powered_by_snowflake_and_tableau",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-tasty-bytes-zero-to-app",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-tasty-bytes-zero-to-app-with-spcs",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-horizon-intra-organization-sharing",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  },
+  {
+    "repository": "Snowflake-Labs/sfguide-intra-company-data-sharing-with-the-snowflake-internal-marketplace",
+    "archived": false,
+    "evidence": "GitHub page fetched; no archived marker"
+  }
+]

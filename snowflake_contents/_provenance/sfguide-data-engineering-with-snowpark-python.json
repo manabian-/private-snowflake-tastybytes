@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-data-engineering-with-snowpark-python",
+  "path": "github/data_engineering_dbt/sfguide-data-engineering-with-snowpark-python",
+  "url": "https://github.com/Snowflake-Labs/sfguide-data-engineering-with-snowpark-python",
+  "commit": "44c92001766275725eaa8c29d94e81562f00c03e",
+  "archive_sha256": "04d4de9eadb0b1433c5675715bc974f515958e794a9596bc5d97f32ee40a5f80",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:33.389605+00:00",
+  "files": 36,
+  "bytes": 639446,
+  "excluded_paths": []
+}

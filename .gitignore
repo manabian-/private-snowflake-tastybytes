@@ -1,0 +1,2 @@
+# Exclude the upstream notebook rejected by GitHub push protection.
+/snowflake_contents/github/common_resources/snowflake-demo-notebooks/Snowflake_Notebooks_Summit_2024_Demo/aileen_summit_notebook.ipynb

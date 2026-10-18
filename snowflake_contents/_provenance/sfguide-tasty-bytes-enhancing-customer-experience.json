@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-tasty-bytes-enhancing-customer-experience",
+  "path": "github/cortex_ai_machine_learning/sfguide-tasty-bytes-enhancing-customer-experience",
+  "url": "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-enhancing-customer-experience",
+  "commit": "e62390203119710f8bbe8abe095c53f663c3581b",
+  "archive_sha256": "be455547cef737065fc3f6bd8b1938ec51049d6522bc19ea09b694ce09a8262b",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:41.924174+00:00",
+  "files": 11,
+  "bytes": 84391,
+  "excluded_paths": []
+}

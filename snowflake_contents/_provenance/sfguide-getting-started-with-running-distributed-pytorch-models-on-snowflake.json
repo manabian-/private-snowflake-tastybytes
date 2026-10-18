@@ -1,0 +1,12 @@
+{
+  "repository": "Snowflake-Labs/sfguide-getting-started-with-running-distributed-pytorch-models-on-snowflake",
+  "path": "github/cortex_ai_machine_learning/sfguide-getting-started-with-running-distributed-pytorch-models-on-snowflake",
+  "url": "https://github.com/Snowflake-Labs/sfguide-getting-started-with-running-distributed-pytorch-models-on-snowflake",
+  "commit": "4f8c4ac06f39fac0b34e918f3ae4c2c6d926fad2",
+  "archive_sha256": "df7905b843ef11e1c1a6e5e4c39248ce8b67d1fd07b8b67923317899ce0c2d1a",
+  "status": "downloaded",
+  "retrieved_at": "2026-10-18T04:20:54.885615+00:00",
+  "files": 6,
+  "bytes": 98021,
+  "excluded_paths": []
+}
