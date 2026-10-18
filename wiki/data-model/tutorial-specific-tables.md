@@ -137,6 +137,7 @@ Internal Marketplace による社内共有の教材は、データベース名�
 
 ## 関連ページ
 
+- [ER 図（全テーブル）](er-diagram.md)
 - [ソースデータの全体像](source-data-overview.md)
 - [非構造化データ](unstructured-data.md)
 - [Marketplace・第三者データ](marketplace-third-party-data.md)

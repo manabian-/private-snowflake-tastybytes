@@ -256,6 +256,7 @@ Cortex Analyst のセマンティックモデルは `PRICE` を「Total price fo
 
 ## 関連ページ
 
+- [ER 図（全テーブル）](er-diagram.md)
 - [ソースデータの全体像](source-data-overview.md)
 - [整合・分析レイヤのビュー](harmonized-analytics-views.md)
 - [半構造化データ](semi-structured-data.md)
