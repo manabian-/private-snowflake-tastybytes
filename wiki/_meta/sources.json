@@ -1,0 +1,879 @@
+{
+ "sources": {
+  "README.md": {
+   "sha256": "bb976e0f0bf90b08294ea445a7425919172bc3babe34207ff36fb4286922d5cf",
+   "pages": [
+    "wiki/README.md"
+   ]
+  },
+  "_provenance/README.md": {
+   "sha256": "5b38ccb45e2d73695db0250e985a131f766dde567a17e722be538df2357407dd",
+   "pages": [
+    "wiki/README.md"
+   ]
+  },
+  "github/bi_applications_sharing/sfguide-end-to-end-analytics-with-snowflake-and-power-bi/1 - Introduction to Tasty Bytes Setup.sql": {
+   "sha256": "6efed7b61e011ca9b624c5eaa02f678919d6a2026453eb42e37abd36ad171bf9",
+   "pages": [
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/bi_applications_sharing/sfguide-horizon-intra-organization-sharing/code/sql/100_setup_data_model.sql": {
+   "sha256": "91ed5b5c491431f2451b09fd40aae29d84efd871dfa9b1ca48f7ff3ee50e52c7",
+   "pages": [
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/unstructured-data.md",
+    "wiki/data-model/version-differences.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/bi_applications_sharing/sfguide-horizon-intra-organization-sharing/code/sql/200_setup_data_products.sql": {
+   "sha256": "a0033a527317afa57f78b95ba82536d474914acc7880ea574debbc7b8bde50c0",
+   "pages": [
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/marketplace-third-party-data.md",
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/bi_applications_sharing/sfguide-horizon-intra-organization-sharing/code/sql/reference/unstructured_data_vignette.sql": {
+   "sha256": "43738cd010066f238427041314e1fc4f9f87fadc9c9b3335edfa187ffdcbda50",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/bi_applications_sharing/sfguide-horizon-intra-organization-sharing/data/imdb_reviews": {
+   "sha256": "147800830bcc3a14520e644c7aa0cad0d89c4c2986f1238e68b8e23dca5f07c6",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/bi_applications_sharing/sfguide-intra-company-data-sharing-with-the-snowflake-internal-marketplace": {
+   "sha256": "b70d501b68d01d8445d4ffd5b4c2b8740068175004487f5dbdbd70d7dfb7cbd3",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/bi_applications_sharing/sfguide-tasty-bytes-zero-to-app/database/zero_to_app_db_setup.sql": {
+   "sha256": "b8181f38a59731cc78623165fa9e3752d47ab07dcd8cf327782c37bf18ea47e9",
+   "pages": [
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/bi_applications_sharing/visual_analytics_powered_by_snowflake_and_tableau/data/2022.zip": {
+   "sha256": "cb16804297a26dba93ed3f51f867d0844e916598953a8495463c57937b19fd67",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/bi_applications_sharing/visual_analytics_powered_by_snowflake_and_tableau/tb_introduction_vhol.sql": {
+   "sha256": "b5ab080e1f96e1a766f5d4a9cad86329726f3850c9a420d559ff92a2312cc943",
+   "pages": [
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/common_resources/sf-samples": {
+   "sha256": "39319e907d6603e48ebf461b57f8ac92b0474747833a3262ac94474a29802f5f",
+   "pages": [
+    "wiki/README.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/aisql/ecommerce_customer_review/README.md": {
+   "sha256": "3e84f4eeb58b8c2666ffc58601d8acd477e7c006501d34cb90d1d96b7bb972c1",
+   "pages": [
+    "wiki/data-model/unstructured-data.md",
+    "wiki/data-model/version-differences.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/aisql/ecommerce_customer_review/customer_reviews_insight.ipynb": {
+   "sha256": "0a1398d4557ce0f21e7f6ed945e505b346682eab719aa465d126d85fb6369403",
+   "pages": [
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/aisql/ecommerce_customer_review/data/customer_data.csv": {
+   "sha256": "12f522af7f02cbcdca3cd41d43809a728fa5855d350ba9b8579107d59992e81f",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/aisql/ecommerce_customer_review/data/product_catalog.csv": {
+   "sha256": "70b8ac7af8bd8ec6fb63a3dbfd124611a3c4f580e70e374505488cac121dacb9",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/aisql/ecommerce_customer_review/data/product_reviews.csv": {
+   "sha256": "130205433e82d8053277caa7c784444d896f006c38a0ab3e371966b0a442775c",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/cortex-analyst/Cortex Analyst Tasty Bytes/sales_detail_semantic_model.yaml": {
+   "sha256": "21bd2204da57ff1d7ca2d7d9fb68cfd32c52379383f4eb689182ece624baca9a",
+   "pages": [
+    "wiki/data-model/core-pos-model.md",
+    "wiki/data-model/harmonized-analytics-views.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/cortex-analyst/Cortex Analyst Tasty Bytes/setup.sql": {
+   "sha256": "49008ee7d00d2445612cb4a3bd1426a937bf92d74911e2c30c2cc4802e3a7e50",
+   "pages": [
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/tasty_bytes/FY25_Zero_To_Snowflake/tb_collaboration.sql": {
+   "sha256": "d4aa84fbe134061007c72af97210042c91205bbc5ec1eb28223c65026ee79442",
+   "pages": [
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/marketplace-third-party-data.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/tasty_bytes/FY25_Zero_To_Snowflake/tb_geospatial.sql": {
+   "sha256": "2aa11b93b29f157d6a4009e096527597f4bc6bd798446b1ccea639a27be6ddae",
+   "pages": [
+    "wiki/data-model/marketplace-third-party-data.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/tasty_bytes/FY25_Zero_To_Snowflake/tb_introduction.sql": {
+   "sha256": "9d22c5a195b39eb4fec04e286bff14ad971675ef5bee4c60aef7a9658434d3d3",
+   "pages": [
+    "wiki/data-model/core-pos-model.md",
+    "wiki/data-model/version-differences.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/tasty_bytes/FY25_Zero_To_Snowflake/tb_semi_structured_data.sql": {
+   "sha256": "48336a74745428b322763c485ca3bb3c30be8525ed9f871ad018a86e62343234",
+   "pages": [
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/semi-structured-data.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/tasty_bytes/tb_introduction.sql": {
+   "sha256": "b6c54659af81a260450efd7f319c28d57f27f7dd89086a6372197d0e281a1472",
+   "pages": [
+    "wiki/data-model/core-pos-model.md",
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/version-differences.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/tasty_bytes/tb_zts_collaboration.sql": {
+   "sha256": "b8a9b9c18574a11eb68f8c4da7f919b23495a6fce20ef06302494171731370e9",
+   "pages": [
+    "wiki/data-model/marketplace-third-party-data.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/tasty_bytes/tb_zts_data_governance.sql": {
+   "sha256": "408618a2180ba7c991a2912b3ac7d41f4dd66ba8814916c4d1e93753652fc208",
+   "pages": [
+    "wiki/data-model/core-pos-model.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/tasty_bytes/tb_zts_geospatial.sql": {
+   "sha256": "212c53c72fb1e8aef5da23005dacf3e5972f36d3ee760afbde8f5ac3d5882f32",
+   "pages": [
+    "wiki/data-model/marketplace-third-party-data.md"
+   ]
+  },
+  "github/common_resources/sf-samples/samples/tasty_bytes/tb_zts_transformation.sql": {
+   "sha256": "10333f9d6d097747755cc52848e0161f16b02a2fb4773605a4ceaff697506527",
+   "pages": [
+    "wiki/data-model/version-differences.md"
+   ]
+  },
+  "github/common_resources/sfguide-getting-started-from-zero-to-snowflake": {
+   "sha256": "127995fe4f820d8f4d0c5c7a96d1db8593d4b401f920d22b31e5e6e7833a843d",
+   "pages": [
+    "wiki/README.md"
+   ]
+  },
+  "github/common_resources/sfguide-getting-started-from-zero-to-snowflake/scripts/setup.sql": {
+   "sha256": "8b0c820ddfdba1da06c4e089c09e64d0fa4c6d7405b0fba9e7d996568dbf695b",
+   "pages": [
+    "wiki/data-model/core-pos-model.md",
+    "wiki/data-model/er-diagram.md",
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/unstructured-data.md",
+    "wiki/data-model/version-differences.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/common_resources/sfguide-getting-started-from-zero-to-snowflake/scripts/vignette-1.sql": {
+   "sha256": "fa11602d10f5614c24bd6839e4f36c101e1a32ff87af9892b7a4b03cbdd57364",
+   "pages": [
+    "wiki/data-model/core-pos-model.md",
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/version-differences.md"
+   ]
+  },
+  "github/common_resources/sfguide-getting-started-from-zero-to-snowflake/scripts/vignette-2.sql": {
+   "sha256": "896450d8d491fdf3f076ce0985572a47c418e6ebc5b8f75d6dba7731ac2f0d5c",
+   "pages": [
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/semi-structured-data.md"
+   ]
+  },
+  "github/common_resources/sfguide-getting-started-from-zero-to-snowflake/scripts/vignette-3-aisql.sql": {
+   "sha256": "43dce8803c9bac288b79929e2c584904cedb2ac14b84e7d263d2eb2d5a6760d7",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/common_resources/sfguide-getting-started-from-zero-to-snowflake/scripts/vignette-4.sql": {
+   "sha256": "d1cbb22fa369ef260920a442d995cc931afb225266c243d1351794bb48001361",
+   "pages": [
+    "wiki/data-model/core-pos-model.md",
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/common_resources/sfguide-getting-started-from-zero-to-snowflake/scripts/vignette-5.sql": {
+   "sha256": "907003547ea2063a70fa20a403ba19b94ffa69ca18c04c2bfc79a135977f06f4",
+   "pages": [
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/marketplace-third-party-data.md"
+   ]
+  },
+  "github/common_resources/sfguide-getting-started-from-zero-to-snowflake/semantic_models/TASTY_BYTES_BUSINESS_ANALYTICS.yaml": {
+   "sha256": "b5e11a968c3b9cd62d8dc19c88e866a29eeb59581412e46d8bda66e5c33c841f",
+   "pages": [
+    "wiki/data-model/harmonized-analytics-views.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts": {
+   "sha256": "e19ec4b0fcb5f0e511bbec272bfb0b2e3f2d1c264514e87e34f4ce6a026034fa",
+   "pages": [
+    "wiki/README.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/build-voice-ai-analytics-pipeline-snowflake-cortex/assets/setup.sql": {
+   "sha256": "8c074877ca9fb3e4ee4d0fa67cdb4fb309936dc651a307380b00b1df4e7f098b",
+   "pages": [
+    "wiki/data-model/unstructured-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/data-engineering-with-snowpark-python-intro": {
+   "sha256": "6932dcc432b4b139a807220c48049d4bb4572d8cd8ece40ab7a3e350dd524c7c",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/gain-insights-from-unstructured-data": {
+   "sha256": "25163ba7b49740301d1443a6e148b72bd5df4fc123fa71bec10ffad8dee840ca",
+   "pages": [
+    "wiki/data-model/version-differences.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/gain-insights-from-unstructured-data/batch_data_extraction.ipynb": {
+   "sha256": "05d35a5cfa7b706e9c058c63458d14f0083a5c8d45c1d8465ffa9198cae0b728",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/gain-insights-from-unstructured-data/data.zip": {
+   "sha256": "6abbfad56f8ba750db84c8d843bd29f72ac18d63f8ec7d1048bec1c865d156dc",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/gain-insights-from-unstructured-data/setup-post-upload.sql": {
+   "sha256": "5c5994de5d1f6058401851ec3eaf1bbed4f09970d0397251aad00a3c83bdb330",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/gain-insights-from-unstructured-data/setup.sql": {
+   "sha256": "51114989f4a7a2e06cae9f0d20cccb9942074a59b42a8eeba9d257b00924b455",
+   "pages": [
+    "wiki/data-model/unstructured-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/getting-started-with-hybrid-tables": {
+   "sha256": "604d6c3adb72509377d68b1f22e7ff2342d62dc508ecdf1aea950229e00b7a55",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/intro-to-iceberg": {
+   "sha256": "489cf50f217d0f348898cc376c2ce000538a72678ebdee6ffb7a90cc7e5ed7e6",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/snowflake-build-secure-multitenant-data-applications-snowflake-sigma": {
+   "sha256": "c7af2d0763c4119bff857805ff0374fa4a24f0de341476819a93bf0d35585ce4",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/common_resources/sfquickstarts/site/sfguides/src/snowflake-postgres-getting-started-with-tables": {
+   "sha256": "1337200c51f5ee67033d62d2e15dba6b3df101f153445cd901d8a486881851fd",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/common_resources/zero-to-snowflake-ja/sql/01_tb_introduction.sql": {
+   "sha256": "cc4d1a63205226c9125d188c964f892a7286ac76c4abf924f077853770f9295e",
+   "pages": [
+    "wiki/data-model/core-pos-model.md",
+    "wiki/data-model/version-differences.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/common_resources/zero-to-snowflake-ja/sql/04_tb_transformation.sql": {
+   "sha256": "fc63dde33aec208ae34e310abd9ee3a3158ea2686888af7d4fe9dd77816f20f8",
+   "pages": [
+    "wiki/data-model/version-differences.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-customer-reviews-analytics-using-snowflake-cortex/setup/tb_voc_setup.sql": {
+   "sha256": "e397818c8c7d4066084c30ba30a1ee57c445ac60573d42c40f7798da4be5fe06",
+   "pages": [
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/unstructured-data.md",
+    "wiki/data-model/version-differences.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-deploying-custom-models-snowflake-model-registry/1_train_pycaret_model.ipynb": {
+   "sha256": "8a750d1c690529f15f132bd35e79c504d76c40c5d784d4233bab2daaf4980ec9",
+   "pages": [
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-enhancing-customer-experiences-using-cortex-finetuning/scripts/setup.sql": {
+   "sha256": "f876dd565e5f8e4fc245b8e98fc93200c0a87de53c95afe862c33398dfef1b73",
+   "pages": [
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/unstructured-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai": {
+   "sha256": "14f5d0fb00fac72e5434f14a6fcd96d3e0d61dcc4755df4da811f5ab61d3f21b",
+   "pages": [
+    "wiki/data-model/version-differences.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai/data.zip": {
+   "sha256": "48254caf8b2eb43b21e03dd6291a3197109fe72d122eb01131df0b869760690e",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai/gaining_insights_from_unstructured_data.ipynb": {
+   "sha256": "2c0e55fcc8993b18b0e96a02369c19b692082287bb25cf79987e496cab014cc3",
+   "pages": [
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai/multimodal": {
+   "sha256": "7ad56d583deab32c3e0bf4a172855b6c2de6a8dbf32228475006b172d8efc33c",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai/setup.sql": {
+   "sha256": "df8681516db16b9b14774565603420e6f5b9ba4b66a12083fee8ba5660ab706e",
+   "pages": [
+    "wiki/data-model/unstructured-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-getting-started-with-remote-development-vscode-extension/forecast.ipynb": {
+   "sha256": "0524b036f9daca70757cb88d5828b0d6b9106f3a102f56b759a7e817e369145d",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-getting-started-with-remote-development-vscode-extension/setup.sql": {
+   "sha256": "eba86a47acfa8c8b17a84585d1ddb462eca924a2d0db48ebfeb71fe99d09bdc2",
+   "pages": [
+    "wiki/data-model/marketplace-third-party-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-getting-started-with-running-distributed-pytorch-models-on-snowflake/scripts/setup.sql": {
+   "sha256": "d1dcdc29528cd4bc69ae72bd94cc10cd4d29ee226e8ccae162fb2edde8e57103",
+   "pages": [
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/data-model/version-differences.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit": {
+   "sha256": "67e2ccdcca2eb7685d08141ca07fecdea14053a7bd152a20a954bb473394c3b6",
+   "pages": [
+    "wiki/README.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit/notebooks/0_start_here.ipynb": {
+   "sha256": "4051b2858fbdea9e636571ae9167ee2ab8f023accdec59543b9b0c308baf8958",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit/scripts/csv": {
+   "sha256": "826f2c7f93da71fc36087c67044a790d92863a20f9004186950b941d2fc92eb1",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit/scripts/csv/raw_safegraph/core_poi_geometry.csv": {
+   "sha256": "4c70ab64a3cd3f2dc9d8e469081b7d1c344119c838b523aad961054cbef81740",
+   "pages": [
+    "wiki/data-model/semi-structured-data.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit/scripts/pricing_guac_roll_04_2023.xlsx": {
+   "sha256": "a1a340a2731eb835737ac01a8843c8389b264b0c0251dec46f06b506b03fb60d",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit/scripts/sql/tb_po_setup.sql": {
+   "sha256": "ab73dfdacb1192474658a48bf120ccd070cee018d8abfc5c71a9e6580e41ef0e",
+   "pages": [
+    "wiki/data-model/core-pos-model.md",
+    "wiki/data-model/er-diagram.md",
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/data-model/version-differences.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-tasty-bytes-enhancing-customer-experience": {
+   "sha256": "35a8ed682f808e433f7234be6946ac733cee3943c5a3691935886eecbb4e1f4d",
+   "pages": [
+    "wiki/README.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-tasty-bytes-enhancing-customer-experience/customer-experience-app/app/Dashboard.py": {
+   "sha256": "49e3573ce0e5e2731c70aa02af3cc634f94186ff8175d1f952fcd95c975281c8",
+   "pages": [
+    "wiki/data-model/er-diagram.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-tasty-bytes-enhancing-customer-experience/customer-experience-app/setup/setup.sql": {
+   "sha256": "6d651d679b31e3af2c22f646e963ec9f1cf6d197c3406718fca0864c34df9c0d",
+   "pages": [
+    "wiki/data-model/er-diagram.md",
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/unstructured-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-tasty-bytes-enhancing-customer-experience/customer-support-email-app/app/01_Queue.py": {
+   "sha256": "daf95732c7c23bec05c9c390503ec909ef1a0c12ee91b5c22113daebb8b4ca89",
+   "pages": [
+    "wiki/data-model/semi-structured-data.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-tasty-bytes-enhancing-customer-experience/customer-support-email-app/app/pages/02_History.py": {
+   "sha256": "4d53ff26e597f304b66b5ecdf5e3aa8516ab3c25eaf1e3c956ab79700b05f0c5",
+   "pages": [
+    "wiki/data-model/er-diagram.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/sfguide-tasty-bytes-enhancing-customer-experience/customer-support-email-app/setup/setup.sql": {
+   "sha256": "cbf21a4dd701dba5d673b3f368259bbd6368c8db3972e9f30331dd44463ded98",
+   "pages": [
+    "wiki/data-model/er-diagram.md",
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/unstructured-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/cortex_ai_machine_learning/translate-customer-reviews-template/Step 1 -- Setup.sql": {
+   "sha256": "acb58203ba99c6de7f7545aea6fb25468f3c3f25f4f6f411f1bb1e35d1fdb415",
+   "pages": [
+    "wiki/data-model/unstructured-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/data_engineering_dbt/getting-started-with-dbt-on-snowflake/tasty_bytes_dbt_demo/models/marts/orders.sql": {
+   "sha256": "3461c0f774c065c04092217d6a2ea9479e90d54091150bc0e183dc1e88493027",
+   "pages": [
+    "wiki/data-model/harmonized-analytics-views.md"
+   ]
+  },
+  "github/data_engineering_dbt/getting-started-with-dbt-on-snowflake/tasty_bytes_dbt_demo/models/staging/__sources.yml": {
+   "sha256": "af947d6663c77d5499562b463d1ad66902291c9bcd75137b1a5dec8f87879312",
+   "pages": [
+    "wiki/data-model/core-pos-model.md"
+   ]
+  },
+  "github/data_engineering_dbt/getting-started-with-dbt-on-snowflake/tasty_bytes_dbt_demo/setup/tasty_bytes_setup.sql": {
+   "sha256": "14695948afdba00b88e1f0656d59ca62aa0327349e090c3afbafd854d122bab6",
+   "pages": [
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/data_engineering_dbt/modern-data-engineering-snowflake/module-2/load_from_cli_stage.sql": {
+   "sha256": "3412ddf55fff388fde784eef48ce9a9696e639e64706901fbb1bfc3feb78d10b",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/data-model/version-differences.md"
+   ]
+  },
+  "github/data_engineering_dbt/modern-data-engineering-snowflake/module-2/module_2_batch_data_ingestion.ipynb": {
+   "sha256": "34ab32cf071c06a7cfd6bb91987486f47b8174ac4b8f0b44dc0f9ccfe477d89d",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/data_engineering_dbt/modern-data-engineering-snowflake/module-2/sample_orders.csv": {
+   "sha256": "9a503d130c1f96ff4f43d9b41599c24a426a6b224235718e4b01820bcf4468b8",
+   "pages": [
+    "wiki/data-model/core-pos-model.md"
+   ]
+  },
+  "github/data_engineering_dbt/modern-data-engineering-snowflake/module-3/module_3_data_transformations.ipynb": {
+   "sha256": "e1c70a16aaeed70d49b40974552ea5a1544edf796c949467bea4054ba9041cba",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/data_engineering_dbt/modern-data-engineering-snowflake/module-5/module_5_orchestrating_pipelines.ipynb": {
+   "sha256": "af4a340e3574536491ffc56a594a529f5265402eab3f474a9c1453906e02ad95",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-data-engineering-with-snowpark-python/steps/01_setup_snowflake.sql": {
+   "sha256": "7dfc0747c193bc4cd904fa4680bd242bb3cb7556cf7b8c6168b222c3353d71d2",
+   "pages": [
+    "wiki/data-model/source-data-overview.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-data-engineering-with-snowpark-python/steps/02_load_raw.py": {
+   "sha256": "6c44e01f336bc32e6ad1d01cf56f6bc6ca8e0b217689144b84eaeae7d5669946",
+   "pages": [
+    "wiki/data-model/semi-structured-data.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-data-engineering-with-snowpark-python/steps/03_load_weather.sql": {
+   "sha256": "32a53a31c3969adc5acf0022987c6a23dab2cae171c3cd7b9737e1be8e4b04cf",
+   "pages": [
+    "wiki/data-model/marketplace-third-party-data.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-data-engineering-with-snowpark-python/steps/04_create_pos_view.py": {
+   "sha256": "db0062c15578ad8d1526205d4e8c7310ed60a70e39af08807f46757961405078",
+   "pages": [
+    "wiki/data-model/harmonized-analytics-views.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-declarative-pipelines-dynamic-tables/00_setup_environment.sql": {
+   "sha256": "42f580f9f263f07b00ddc9e008111adf7b8dbdf9ee655ccc7a5c9a0371061d0d",
+   "pages": [
+    "wiki/data-model/source-data-overview.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-declarative-pipelines-dynamic-tables/01_dynamic_tables.sql": {
+   "sha256": "a802d9d00dbb829b77ad6245510d3376228aa00aa6d2adf9cc6802fa631e4771",
+   "pages": [
+    "wiki/data-model/core-pos-model.md",
+    "wiki/data-model/harmonized-analytics-views.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-scai-e2e-ssis-migration/README.md": {
+   "sha256": "2162828f4242a85b66a392dce2ab6d9b76884a25bdabef33a28d9e13147a6881",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/data-model/version-differences.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-scai-e2e-ssis-migration/source_db/00_ddl.sql": {
+   "sha256": "566a47a47a8dba8b7b213bd4a3137611fd0143a0d1dbe73f873e885053f03c2a",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-scai-e2e-ssis-migration/source_db/01_data.sql": {
+   "sha256": "44aece03b877852bb2b3a137a238f0b3ea3dde3dc5473e58c8846337eea98e4f",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-snowflake-northstar-data-engineering/00_ingestion/load_tasty_bytes.sql": {
+   "sha256": "24b471a09dd90b3eba23100a0e070766237e9ab3707b25cfc0f1e9e0a560ca70",
+   "pages": [
+    "wiki/data-model/source-data-overview.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "github/data_engineering_dbt/sfguide-snowflake-northstar-data-engineering/00_ingestion/solution/solution_copy_into.sql": {
+   "sha256": "79149e52b7f73fd4b070b356299698e0edac6bab8247719003bf82fc3532a1cb",
+   "pages": [
+    "wiki/data-model/source-data-overview.md"
+   ]
+  },
+  "github/data_engineering_dbt/snowflake-dcm-projects/sample-projects/dcm-full-demo-project/sources/definitions/ingest.sql": {
+   "sha256": "15e16e8c0c44749d40e0a2b0fe2c486240c420a1d152b22a57daad4541cc971c",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "github/data_engineering_dbt/snowflake-dcm-projects/sample-projects/dcm-full-demo-project/sources/definitions/raw.sql": {
+   "sha256": "2a3d5a17ba2476b15b7bb68ba56d0fead9e65099763c66d9cab24d1beb224acf",
+   "pages": [
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "introduction/tasty-bytes-introduction-ja.md": {
+   "sha256": "6b3a4504f4e511e93906892852b086d4ec9f4e85d931402befe50f2820efdca6",
+   "pages": [
+    "wiki/data-model/source-data-overview.md"
+   ]
+  },
+  "manifest.json": {
+   "sha256": "f1a41a8d8008a671433b30938338c4b4808c4385e090ebbb27dcec2e5c7f4e54",
+   "pages": [
+    "wiki/README.md"
+   ]
+  },
+  "training/application_development/build-a-data-app-and-run-it-on-snowpark-container-services.md": {
+   "sha256": "58771171e7b63b8026d62f06cf372112f7037c6ad2e7869e69ac762e3b034046",
+   "pages": [
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "training/application_development/build-a-data-app-with-snowflake.md": {
+   "sha256": "2d9f4587a8adb6718a770dfe7048c8dd354830a1840edcb6278f673428c3d229",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "training/application_development/developing-tasty-bytes-react-native-application-with-snowflake-sql-api.md": {
+   "sha256": "74309a40fc72a9a1beaf75d8cb68ce82c7e91707bca0098474acf2147cda9eb9",
+   "pages": [
+    "wiki/data-model/er-diagram.md",
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/data-model/version-differences.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "training/bi_analytics/analyzing-customer-reviews-using-hex-and-snowflake-cortex.md": {
+   "sha256": "c1551bb967331849c00839e3c3d250ea4711cddd566292bd0dccc972a979ca84",
+   "pages": [
+    "wiki/data-model/unstructured-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "training/bi_analytics/end-to-end-analytics-with-snowflake-and-power-bi.md": {
+   "sha256": "da112d18ba1e2251d596e912f23ab4e106c1b6d64708753c2960d96909bfc318",
+   "pages": [
+    "wiki/data-model/core-pos-model.md",
+    "wiki/data-model/er-diagram.md",
+    "wiki/data-model/harmonized-analytics-views.md",
+    "wiki/data-model/marketplace-third-party-data.md",
+    "wiki/data-model/tutorial-specific-tables.md"
+   ]
+  },
+  "training/bi_analytics/partner-snowflake-predictive-model-using-sigma.md": {
+   "sha256": "19d75443b42ce3f2bad7de3d902d93d0a21d0072762706e98582336d3cd57036",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "training/bi_analytics/visual-analytics-powered-by-snowflake-and-tableau.md": {
+   "sha256": "53fb8859fc9262b9a7d8477599416aa572540ed4cebd4b6c44c52d20525c621d",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "training/cortex_generative_ai/build-voice-ai-analytics-pipeline-snowflake-cortex.md": {
+   "sha256": "6bb8f8cc4a09de2419e507257ea035d56b4b4b2a3ba7134b408a950d48534dfe",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "training/cortex_generative_ai/gain-insights-from-unstructured-data.md": {
+   "sha256": "ebb878b32ad3ef11fcc7b93766676b60c52c35537ee5e225a69f385f76464e90",
+   "pages": [
+    "wiki/data-model/version-differences.md"
+   ]
+  },
+  "training/cortex_generative_ai/tasty-bytes-customer-experience-app.md": {
+   "sha256": "c88acd36333b3ba0d155bac0d9a92d3eddc460eea1dd2e52de5f986549a79550",
+   "pages": [
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "training/cortex_generative_ai/tasty-bytes-customer-support-email-app.md": {
+   "sha256": "3fb9b1b8fac3c32455c42d3f10f1417ae9938b862f0d404c62448657871ee04b",
+   "pages": [
+    "wiki/data-model/unstructured-data.md"
+   ]
+  },
+  "training/cortex_generative_ai/tasty-bytes-rag-chatbot-using-cortex-and-streamlit.md": {
+   "sha256": "1f2841170ec2396f48e6e0995991b35770542f018c13897deb9862b047675739",
+   "pages": [
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/unstructured-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "training/data_engineering/comprehensive-guide-to-dynamic-tables.md": {
+   "sha256": "f41133134efadacb9459008f2dd1b6632001fc8a649bea787a30cfe442b9f9e9",
+   "pages": [
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "training/data_engineering/snowflake-northstar-data-engineering.md": {
+   "sha256": "eb2f82f42815caad1e7b4bb702feaab79f67d57d1e58b64d456e2c0dc49693d0",
+   "pages": [
+    "wiki/data-model/marketplace-third-party-data.md"
+   ]
+  },
+  "training/data_engineering/tasty-bytes-working-with-iceberg-tables.md": {
+   "sha256": "44f68a0a8c2c27d98c6c07dcc21010a61c06093fda90181c04b32d368c27b426",
+   "pages": [
+    "wiki/data-model/semi-structured-data.md",
+    "wiki/data-model/unstructured-data.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "training/data_science_machine_learning/ml-forecasting-ad.md": {
+   "sha256": "68ec4a166503c1ace507090e573d3cd2a3d6ab68eb82f74d6e57c19539fb2088",
+   "pages": [
+    "wiki/data-model/marketplace-third-party-data.md",
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "training/data_science_machine_learning/tasty-bytes-snowpark-101-for-data-science.md": {
+   "sha256": "1b23ea87daffbf3899b9bb1cd906b8e9a0f6a89dadc485511e7517d13e1fd5fa",
+   "pages": [
+    "wiki/data-model/marketplace-third-party-data.md",
+    "wiki/data-model/source-data-overview.md",
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  },
+  "training/governance_sharing/getting-started-with-microsoft-purview-and-snowflake.md": {
+   "sha256": "1ecd5d4a4adad0982fe880e97d46a6b519dd169f9faed7eb00c520f485f91abe",
+   "pages": [
+    "wiki/data-model/tutorial-specific-tables.md",
+    "wiki/tutorials/data-sources-by-tutorial.md"
+   ]
+  }
+ },
+ "catalog_urls": [
+  "https://docs.snowflake.com/en/user-guide/tutorials/dbt-projects-on-snowflake-ci-cd-tutorial",
+  "https://docs.snowflake.com/en/user-guide/tutorials/dbt-projects-on-snowflake-getting-started-tutorial",
+  "https://docs.snowflake.com/ja/user-guide/tutorials/tasty-bytes-sql-load",
+  "https://github.com/Snowflake-Labs/getting-started-with-dbt-on-snowflake",
+  "https://github.com/Snowflake-Labs/modern-data-engineering-snowflake",
+  "https://github.com/Snowflake-Labs/sf-samples",
+  "https://github.com/Snowflake-Labs/sf-samples/blob/main/samples/cortex-analyst/Cortex%20Analyst%20Tasty%20Bytes/README.md",
+  "https://github.com/Snowflake-Labs/sf-samples/blob/main/samples/tasty_bytes/README.md",
+  "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/aisql/ecommerce_customer_review",
+  "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/cortex-analyst/Cortex%20Analyst%20Tasty%20Bytes",
+  "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/intro-to-snowflake-for-devs-data-scientists-data-engineers",
+  "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/snowpark_connect",
+  "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/tasty_bytes",
+  "https://github.com/Snowflake-Labs/sf-samples/tree/main/samples/tasty_bytes/FY25_Zero_To_Snowflake",
+  "https://github.com/Snowflake-Labs/sfguide-customer-reviews-analytics-using-snowflake-cortex",
+  "https://github.com/Snowflake-Labs/sfguide-data-engineering-with-snowpark-python",
+  "https://github.com/Snowflake-Labs/sfguide-declarative-pipelines-dynamic-tables",
+  "https://github.com/Snowflake-Labs/sfguide-deploying-custom-models-snowflake-model-registry",
+  "https://github.com/Snowflake-Labs/sfguide-end-to-end-analytics-with-snowflake-and-power-bi",
+  "https://github.com/Snowflake-Labs/sfguide-enhancing-customer-experiences-using-cortex-finetuning",
+  "https://github.com/Snowflake-Labs/sfguide-gaining-insights-from-unstructured-data-with-cortex-ai",
+  "https://github.com/Snowflake-Labs/sfguide-getting-started-from-zero-to-snowflake",
+  "https://github.com/Snowflake-Labs/sfguide-getting-started-with-remote-development-vscode-extension",
+  "https://github.com/Snowflake-Labs/sfguide-getting-started-with-running-distributed-pytorch-models-on-snowflake",
+  "https://github.com/Snowflake-Labs/sfguide-horizon-intra-organization-sharing",
+  "https://github.com/Snowflake-Labs/sfguide-intra-company-data-sharing-with-the-snowflake-internal-marketplace",
+  "https://github.com/Snowflake-Labs/sfguide-price-optimization-using-snowflake-notebooks-and-streamlit",
+  "https://github.com/Snowflake-Labs/sfguide-scai-e2e-ssis-migration",
+  "https://github.com/Snowflake-Labs/sfguide-snowflake-northstar-data-engineering",
+  "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-enhancing-customer-experience",
+  "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-snowpark-101-for-data-science",
+  "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-zero-to-app",
+  "https://github.com/Snowflake-Labs/sfguide-tasty-bytes-zero-to-app-with-spcs",
+  "https://github.com/Snowflake-Labs/sfguides",
+  "https://github.com/Snowflake-Labs/sfquickstarts",
+  "https://github.com/Snowflake-Labs/snowflake-dcm-projects",
+  "https://github.com/Snowflake-Labs/snowflake-dcm-projects/tree/main/sample-projects/dcm-full-demo-project",
+  "https://github.com/Snowflake-Labs/snowflake-demo-notebooks",
+  "https://github.com/Snowflake-Labs/translate-customer-reviews-template",
+  "https://github.com/Snowflake-Labs/visual_analytics_powered_by_snowflake_and_tableau",
+  "https://github.com/Snowflake-Labs/zero-to-snowflake-ja",
+  "https://github.com/Snowflake-Labs/zero-to-snowflake-ja#readme",
+  "https://www.snowflake.com/en/developers/guides/analyzing-customer-reviews-using-hex-and-snowflake-cortex/",
+  "https://www.snowflake.com/en/developers/guides/build-a-data-app-and-run-it-on-snowpark-container-services/",
+  "https://www.snowflake.com/en/developers/guides/build-a-data-app-with-snowflake/",
+  "https://www.snowflake.com/en/developers/guides/build-voice-ai-analytics-pipeline-snowflake-cortex/",
+  "https://www.snowflake.com/en/developers/guides/comprehensive-guide-to-dynamic-tables/",
+  "https://www.snowflake.com/en/developers/guides/customer-reviews-analytics-using-snowflake-cortex/",
+  "https://www.snowflake.com/en/developers/guides/data-engineering-pipelines-with-snowpark-python/",
+  "https://www.snowflake.com/en/developers/guides/data-ingestion-transformation-delivery-coco/",
+  "https://www.snowflake.com/en/developers/guides/dbt-projects-on-snowflake/",
+  "https://www.snowflake.com/en/developers/guides/deploying-custom-models-to-snowflake-model-registry/",
+  "https://www.snowflake.com/en/developers/guides/developing-tasty-bytes-react-native-application-with-snowflake-sql-api/",
+  "https://www.snowflake.com/en/developers/guides/end-to-end-analytics-with-snowflake-and-power-bi/",
+  "https://www.snowflake.com/en/developers/guides/enhancing-customer-experiences-using-cortex-finetuning/",
+  "https://www.snowflake.com/en/developers/guides/gain-insights-from-unstructured-data/",
+  "https://www.snowflake.com/en/developers/guides/get-started-with-remote-development-snowflake-vscode-extension/",
+  "https://www.snowflake.com/en/developers/guides/getting-started-with-microsoft-purview-and-snowflake/",
+  "https://www.snowflake.com/en/developers/guides/getting-started-with-running-distributed-pytorch-models-on-snowflake/",
+  "https://www.snowflake.com/en/developers/guides/horizon-intra-org-sharing/",
+  "https://www.snowflake.com/en/developers/guides/internal-marketplace-intra-org-sharing/",
+  "https://www.snowflake.com/en/developers/guides/intro-to-snowpark-connect-for-apache-spark/",
+  "https://www.snowflake.com/en/developers/guides/ml-forecasting-ad/",
+  "https://www.snowflake.com/en/developers/guides/partner-snowflake-predictive-model-using-sigma/",
+  "https://www.snowflake.com/en/developers/guides/snowflake-dynamic-tables-data-pipeline/",
+  "https://www.snowflake.com/en/developers/guides/snowflake-northstar-data-engineering/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-customer-experience-app/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-customer-support-email-app/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-price-optimization-using-snowflake-notebooks-and-streamlit/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-rag-chatbot-using-cortex-and-streamlit/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-snowpark-101-for-data-science/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-working-with-iceberg-tables/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-collaboration/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-cost-management/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-geospatial/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-governance-with-horizon/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-semi-structured-data/",
+  "https://www.snowflake.com/en/developers/guides/tasty-bytes-zero-to-snowflake-transformation/",
+  "https://www.snowflake.com/en/developers/guides/understanding-customer-reviews-using-snowflake-cortex/",
+  "https://www.snowflake.com/en/developers/guides/visual-analytics-powered-by-snowflake-and-tableau/",
+  "https://www.snowflake.com/en/developers/guides/zero-to-snowflake/",
+  "https://www.snowflake.com/ja/developers/guides/tasty-bytes-introduction-ja/",
+  "https://www.snowflake.com/ja/developers/guides/tasty-bytes-zero-to-snowflake-collaboration-ja/",
+  "https://www.snowflake.com/ja/developers/guides/tasty-bytes-zero-to-snowflake-semi-structured-data-ja/",
+  "https://www.snowflake.com/ja/developers/guides/tasty-bytes-zero-to-snowflake-transformation-ja/"
+ ]
+}

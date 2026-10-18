@@ -1,0 +1,47 @@
+name: wiki-check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate wiki
+        run: python3 tools/validate_wiki.py
+
+      - name: Check that cited sources match the snapshot
+        run: python3 tools/wiki_sources.py diff
+
+      - name: Protect snowflake_contents/
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
+        run: |
+          changed=$(git diff --name-only "$BASE_SHA"...HEAD -- snowflake_contents/)
+          if [ -z "$changed" ]; then
+            echo "snowflake_contents/ is unchanged."
+            exit 0
+          fi
+          case ",$LABELS," in
+            *,source-import,*)
+              echo "snowflake_contents/ changed in a PR labeled source-import:"
+              echo "$changed"
+              ;;
+            *)
+              echo "::error::snowflake_contents/ must only change through the import tools. Add the 'source-import' label to a PR that re-imports sources."
+              echo "$changed"
+              exit 1
+              ;;
+          esac
