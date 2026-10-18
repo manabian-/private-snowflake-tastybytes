@@ -4,4 +4,6 @@ Snowflake のサンプルデータ・学習コンテンツ「Tasty Bytes」に�
 
 [Snowflake コンテンツ一覧](snowflake_contents/README.md)
 
+[Tasty Bytes ナレッジベース（wiki）](wiki/README.md)
+
 GitHub への保存時の除外事項は [PUSH_EXCLUSIONS.md](PUSH_EXCLUSIONS.md) を参照してください。
