@@ -14,6 +14,7 @@ Snowflake の学習用サンプル「Tasty Bytes」について、[`snowflake_co
 | ページ | 内容 |
 | --- | --- |
 | [ソースデータの全体像](data-model/source-data-overview.md) | 入手経路（S3・Marketplace・同梱ファイル・内部ステージ）、形による分類、レイヤ構成、データベース名の一覧 |
+| [ER 図](data-model/er-diagram.md) | ノートブックで作る 31 テーブルの関係（POS、サプライチェーン、検査・メール・RAG、分析・アプリの 4 図）と、関係ごとの根拠 |
 | [中核データモデル（raw_pos / raw_customer）](data-model/core-pos-model.md) | 中核 8 テーブルと `truck_reviews` / `truck_details` の全列・型・説明、エンティティ関係 |
 | [整合・分析レイヤのビュー](data-model/harmonized-analytics-views.md) | `orders_v`、`customer_loyalty_metrics_v`、`truck_reviews_v`、`semantic_layer`、派生オブジェクト |
 | [半構造化データ](data-model/semi-structured-data.md) | `VARIANT` / `OBJECT` / `ARRAY` / `VECTOR` 列の入れ子構造 |

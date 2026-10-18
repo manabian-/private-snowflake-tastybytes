@@ -93,6 +93,7 @@ Tasty Bytes は Snowflake の frostbyte チームが作った架空のキッチ�
 
 ## 関連ページ
 
+- [ER 図（全テーブル）](er-diagram.md)
 - [中核データモデル（raw_pos / raw_customer）](core-pos-model.md)
 - [整合・分析レイヤのビュー](harmonized-analytics-views.md)
 - [半構造化データ](semi-structured-data.md)
