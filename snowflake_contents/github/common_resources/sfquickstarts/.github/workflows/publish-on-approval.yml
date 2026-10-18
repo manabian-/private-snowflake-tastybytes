@@ -1,0 +1,148 @@
+name: Publish to AEM (Without Workato)
+
+# Runs on merges to master. Everything here is trusted code from the default branch,
+# but the detection logic still validates each guide name and path, because the same
+# values become paths and URLs in the production AEM calls downstream.
+on:
+  push:
+    branches: [master]
+
+permissions: {}
+
+# No concurrency group, deliberately. Every run here carries a different commit's
+# content, so none of them may be dropped. cancel-in-progress: false does not buy
+# that: GitHub keeps only one pending run per group and cancels the rest, so a run
+# held open by a production approval silently killed the publishes queued behind it.
+
+jobs:
+  detect_changes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    env:
+      PYTHONPATH: scripts
+    outputs:
+      has_relevant_changes: ${{ steps.detect.outputs.has_relevant_changes }}
+      quickstart_names_json: ${{ steps.detect.outputs.quickstart_names_json }}
+      relevant_changed_files_json: ${{ steps.detect.outputs.relevant_changed_files_json }}
+      has_sidebar_changes: ${{ steps.detect.outputs.has_sidebar_changes }}
+      sidebar_json_files: ${{ steps.detect.outputs.sidebar_json_files }}
+      journey_guides_json: ${{ steps.detect.outputs.journey_guides_json }}
+      has_journey_guides: ${{ steps.detect.outputs.has_journey_guides }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.0
+        with:
+          fetch-depth: 2
+
+      # Selecting a cached interpreter, not installing packages: detect_changes.py
+      # is stdlib-only, so this job still pulls in no third-party code.
+      - name: Pin Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+
+      - name: Determine changed quickstart folders
+        id: detect
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: python3 scripts/publish/detect_changes.py
+
+  upload_sidebar_json:
+    needs: detect_changes
+    if: needs.detect_changes.outputs.has_sidebar_changes == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: production
+    permissions:
+      contents: read
+      # Required to assume the AEM role by OIDC. GitHub only mints a token
+      # carrying environment:production for a job that declares that environment.
+      id-token: write
+    env:
+      PYTHONPATH: scripts
+    steps:
+      # Must precede every other step: checkout clears the workspace, so anything
+      # written before it is discarded, and the scripts below do not exist yet.
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.0
+        with:
+          sparse-checkout: |
+            journeys/
+            scripts/lib
+            scripts/publish
+            scripts/deploy
+          sparse-checkout-cone-mode: true
+
+      - name: Pin Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4
+        with:
+          role-to-assume: arn:aws:iam::886692307588:role/github-sfquickstarts-prod-aem-iam-role
+          aws-region: us-west-1
+
+      # The blank alias before the comma drops the secret-name prefix, so the JSON
+      # keys land as AEM_USERNAME, AEM_PASSWORD and AEM_AUTHOR_URL. The action masks
+      # each value itself, which is why nothing is written to $GITHUB_ENV by hand.
+      - name: Fetch AEM secrets
+        uses: aws-actions/aws-secretsmanager-get-secrets@2cb1a461cbd4865ac4299648312e4704c646cd53 # v3
+        with:
+          secret-ids: ",github-snowflake-labs-aem-prod-secrets"
+          parse-json-secrets: true
+
+      - name: Upload and publish sidebar JSON files
+        env:
+          SIDEBAR_FILES: ${{ needs.detect_changes.outputs.sidebar_json_files }}
+        run: python3 scripts/publish/upload_sidebars.py
+
+  publish_to_aem:
+    needs: detect_changes
+    if: |
+      needs.detect_changes.outputs.has_relevant_changes == 'true' &&
+      needs.detect_changes.outputs.quickstart_names_json != '[]'
+    # A called workflow cannot hold more than its caller grants, so this must cover
+    # what publish_quickstart declares.
+    permissions:
+      contents: read
+      id-token: write
+    strategy:
+      matrix:
+        quickstart: ${{ fromJson(needs.detect_changes.outputs.quickstart_names_json) }}
+      max-parallel: 1
+      fail-fast: false
+    uses: ./.github/workflows/publish-to-aem.yml
+    with:
+      quickstart_name: ${{ matrix.quickstart.name }}
+      language: ${{ matrix.quickstart.language || 'en' }}
+      commit_sha: ${{ github.sha }}
+      aws_secret_name: github-snowflake-labs-aem-prod-secrets
+
+  publish_journey_guides:
+    needs: detect_changes
+    if: needs.detect_changes.outputs.has_journey_guides == 'true'
+    # A called workflow cannot hold more than its caller grants, so this must cover
+    # what publish_quickstart declares.
+    permissions:
+      contents: read
+      id-token: write
+    strategy:
+      matrix:
+        guide: ${{ fromJson(needs.detect_changes.outputs.journey_guides_json) }}
+      max-parallel: 1
+      fail-fast: false
+    uses: ./.github/workflows/publish-to-aem.yml
+    with:
+      quickstart_name: ${{ matrix.guide.name }}
+      language: ${{ matrix.guide.language || 'en' }}
+      commit_sha: ${{ github.sha }}
+      source_path: ${{ matrix.guide.source_path }}
+      page_base_path: /content/snowflake-site/global/en/developers/guides/journey-sidebar-base
+      aws_secret_name: github-snowflake-labs-aem-prod-secrets
